@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "machine_gun_blaze",
+	"version": "${version}",
+	"name": "Machine Gun Blaze",
+	"description": "Makes blaze fire continuously",
+	"authors": [
+		"wdfeer"
+	],
+	"contact": {
+		"sources": "https://github.com/wdfeer/machine-gun-blaze",
+		"homepage": "https://github.com/wdfeer/machine-gun-blaze"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/machine_gun_blaze/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.wdfeer.MachineGunBlaze"
+		]
+	},
+	"mixins": [
+		"machine_gun_blaze.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
