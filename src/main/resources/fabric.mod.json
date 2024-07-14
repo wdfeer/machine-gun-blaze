@@ -14,11 +14,6 @@
 	"license": "GPL-3.0",
 	"icon": "assets/machine_gun_blaze/icon.png",
 	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"org.wdfeer.MachineGunBlaze"
-		]
-	},
 	"mixins": [
 		"machine_gun_blaze.mixins.json"
 	],
